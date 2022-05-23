@@ -1,0 +1,49 @@
+# count=10
+# x=0
+# while x<50:
+#     str="*"*x
+#     print (str)
+#     x+=1
+#     if x==48:
+#         x=1
+#         count=count-1
+#     if count==0:
+#         break
+# class MyClass:
+#     variable="blah"
+#     def function(self):
+#         print("This is my function")
+
+# Myobj=MyClass()
+# Myobj.variable=12
+# from lib2to3.pytree import convert
+
+
+# testarray=[4,8,8,9,11]
+# mean=0.0
+# for x in testarray:
+#     mean+=x
+# mean=mean/len(testarray)
+# print (mean)
+# square=0
+# for x in testarray:
+#     temp=(x-mean)**2
+#     square+=temp
+# res=square/(len(testarray)-1)
+# print(res)
+# import urllib
+# help(dir(urllib))
+
+# height = [1.87,  1.87, 1.82, 1.91, 1.90, 1.85]
+# weight = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
+# import numpy as np
+# np_height = np.array(height)
+# np_weight = np.array(weight)
+# bmi = np_weight / np_height ** 2
+
+# # Print the result
+# print(bmi[bmi>25])
+
+import pandas as pd
+flix=pd.read_csv('NotFlix.csv',index_col=0)
+print (flix.iloc[2])
